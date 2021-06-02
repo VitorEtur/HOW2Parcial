@@ -4,5 +4,5 @@ https://vitoretur.github.io/HOW2Parcial
 ////////////////////////////////////////
 -----Protótipo-----
 https://i.imgur.com/jHiD7h2.png 
-![GitHub Logo](/https://i.imgur.com/jHiD7h2.png )
+![GitHub Logo](https://i.imgur.com/jHiD7h2.png )
 Format: ![Alt Text](https://i.imgur.com/jHiD7h2.png )
