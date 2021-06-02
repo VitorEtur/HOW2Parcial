@@ -3,7 +3,7 @@
   
   > Portfólio
   
-> https://vitoretur.github.io/HOW2Parcial
+> (https://vitoretur.github.io/HOW2Parcial)
 
 > Protótipo
   
