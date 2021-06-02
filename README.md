@@ -4,7 +4,7 @@
   
 > https://vitoretur.github.io/HOW2Parcial
 
-> -----Protótipo-----
+> Protótipo
   
 > https://i.imgur.com/jHiD7h2.png 
   
