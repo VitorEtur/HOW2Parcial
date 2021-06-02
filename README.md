@@ -1,6 +1,7 @@
 # HOW2Parcial
 <h2>1º Etapa do Hands on Work II<h2>
-> Portfólio
+  
+  > Portfólio
   
 > https://vitoretur.github.io/HOW2Parcial
 
