@@ -2,7 +2,7 @@
 <h2>1º Etapa do Hands on Work II<h2>
   
   > Portfólio
-  [GitHub](http://github.com)
+
 > https://vitoretur.github.io/HOW2Parcial
 
 > Protótipo
