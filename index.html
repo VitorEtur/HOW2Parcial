@@ -1,29 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--  É uma "informação" para o navegador sobre qual tipo de documento esperar -->
 <html lang="en">
+<!-- Declarando idioma  -->
 
 <head>
-    <meta charset="UTF-8">
+    <!-- elemento providencia informações gerais (metadados) sobre  document, incluindo seu título e links para scripts e folhas de estilos -->
+    <meta charset="UTF-8"> <!-- O atributo especifica a codificação do caractere para o documento HTML -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <!-- A tag define a relação entre o documento atual e um recurso externo. -->
     <link rel="icon" type="imagem/png" href="https://i.imgur.com/rcDZy1W.png" />
+    <!-- Usada para adicionar um ícone ao site -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="./css/imagens.css">
+    <!-- Usado para conectar a uma CDN (rede de distribuição de conteúdo) -->
+    <link rel="stylesheet" href="./css/imagens.css"> <!-- Arquivo externo usado para ajustar as imagens -->
     <link rel="stylesheet" href="./css/subir.css">
     <title>Crispim Fotográfias</title>
+    <!-- define o título do documento, mostrado na barra de título de um navegador ou na aba da página -->
 </head>
 
 <body>
+    <!-- representa o conteúdo de um documento HTML -->
     <header class="Menu">
+        <!-- Cabeçalho com classe -->
+        <!-- a classe é usado para especificar uma classe para um elemento HTML -->
         <main>
+            <!-- define o conteúdo principal dentro do <body> -->
             <div class="header1">
+                <!-- <div> é um container genérico para conteúdo de fluxo -->
                 <div class="Logo">
                     <a href="#"><img src="./img/logo2.png" /></a>
+                    <!-- O elemento <a> com o atributo href cria-se uma hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
                 </div>
                 <div class="Rede-Social">
                     <ul>
+                        <!-- representa uma lista de itens sem ordem rígida -->
                         <li><a href="https://www.instagram.com/_thecrispim/" target="_blank"><img
                                     src="./img/InstagramWhite.png" /></a></li>
+                        <!-- <li> é usado para representar um item que faz parte de uma lista -->
                     </ul>
                 </div>
             </div>
@@ -32,11 +46,12 @@
     <main class="coluna menu3">
         <div class="header2">
             <div class="menu2">
+                <!-- Divisória do menu de atalhos do website -->
                 <ul>
-                    <li><a href="#">Página Inicial</a></li>
-                    <li><a href="#">Fotos</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Página Inicial</a></li> <!-- redirecionara para a página inicial -->
+                    <li><a href="#">Fotos</a></li> <!-- redireciona para as fotos -->
+                    <li><a href="#">Sobre</a></li> <!-- informações sobre o fotógrafo -->
+                    <li><a href="#">Contato</a></li> <!-- informações para contato -->
                 </ul>
             </div>
             <div class="buscar">
@@ -46,11 +61,13 @@
     </main>
     <div class="coluna">
         <div class="slide">
-            <img src="./img/bannerslide1.png" />
-            <img src="./img/bannerslide2.png" />
+            <!-- Divisória dos slides -->
+            <img src="./img/bannerslide1.png" /> <!-- <img> representa a inserção de imagem no documento -->
+            <img src="./img/bannerslide2.png" /> <!-- Imagens que aparecerão nos slides -->
             <img src="./img/bannerslide3.png" />
         </div>
         <div class="imagens">
+            <!-- Imagens que apareção no corpo do site -->
             <img class="imagem" src="./img/IMG_5744.jpg">
             <img class="imagem" src="./img/IMG_5750.jpg">
             <img class="imagem" src="./img/IMG_5240.jpg">
@@ -63,11 +80,13 @@
             <img class="imagem" src="./img/IMG_5806.jpg">
 
             <div id="voltarTopo">
+                <!-- Usado para adicionar um ícone de atalho para retornar ao topo do site -->
                 <a href="#" id="subir">▲</a>
             </div>
 
 
             <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+            <!-- O elemento contém instruções de script ou aponta para um arquivo de script externo através do atributo src -->
             <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
             <script type="text/javascript"
                 src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
